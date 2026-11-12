@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d3b">
+  <meta name="description" content="Hydro Guard helps UAE homeowners monitor water pressure, flow and leaks in real time.">
+  <title>Hydro Guard | Smart Water Monitoring</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hydro Guard home">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M24 3C18 12 8 22 8 30a16 16 0 0 0 32 0C40 22 30 12 24 3Z" fill="currentColor"/>
+        <path d="M16 31c0 4 3 7 7 8" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/>
+      </svg>
+      <span class="brand-name">HYDRO <b>GUARD</b></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="#dashboard">Live dashboard</a>
+      <a href="#overview">Product overview</a>
+    </nav>
+    <a class="header-cta" href="#dashboard">View dashboard <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> SMART WATER. SAFER HOMES.</div>
+        <h1>Smart Water Monitoring.<br><span>Safer Homes.</span></h1>
+        <p class="hero-lead">Know what’s happening inside your water system. Hydro Guard monitors pressure, flow and leaks—so homeowners can spot unusual activity sooner.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#dashboard">Explore the live dashboard <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#how-it-works">How Hydro Guard works <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-icon">⌁</div>
+          <p><strong>Built for the home</strong><br>Designed for villas and homes in the UAE</p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a connected home and water monitoring">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-card visual-card-top"><span class="mini-icon">◉</span><span><b>Water system</b><small>Insight at a glance</small></span><i class="small-status"></i></div>
+        <div class="home-illustration">
+          <svg viewBox="0 0 430 330" role="img" aria-label="A home connected to a water monitoring device">
+            <defs>
+              <linearGradient id="houseFill" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#f8fcff"/>
+                <stop offset="1" stop-color="#e6f4fb"/>
+              </linearGradient>
+              <linearGradient id="waterFill" x1="0" x2="1">
+                <stop offset="0" stop-color="#1b9ed4"/>
+                <stop offset="1" stop-color="#63d0e7"/>
+              </linearGradient>
+            </defs>
+            <path d="M53 152 215 36l162 116" fill="none" stroke="#0a2b52" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+            <path d="M86 142v151h258V142L215 50 86 142Z" fill="url(#houseFill)" stroke="#b6d6e8" stroke-width="3"/>
+            <path d="M190 293v-90a25 25 0 0 1 50 0v90" fill="#d0e9f4"/>
+            <rect x="113" y="175" width="46" height="48" rx="8" fill="#d5edf7"/>
+            <rect x="272" y="175" width="46" height="48" rx="8" fill="#d5edf7"/>
+            <path d="M111 199h50M297 175v48" stroke="#b6d6e8" stroke-width="3"/>
+            <path d="M211 231v-26c0-7 6-13 13-13h12" fill="none" stroke="#198bbd" stroke-linecap="round" stroke-width="5"/>
+            <rect x="229" y="178" width="57" height="46" rx="12" fill="#0b2d53"/>
+            <circle cx="247" cy="197" r="4" fill="#54d8cc"/>
+            <path d="M259 197h15M247 209h27" stroke="#66b9d8" stroke-linecap="round" stroke-width="3"/>
+            <path d="M286 201h26c9 0 16 7 16 16v22" fill="none" stroke="#198bbd" stroke-linecap="round" stroke-width="5"/>
+            <path d="M328 245c-9 13-14 19-14 26a14 14 0 0 0 28 0c0-7-5-13-14-26Z" fill="url(#waterFill)"/>
+            <circle cx="350" cy="118" r="28" fill="#fff" stroke="#d7edf5" stroke-width="2"/>
+            <path d="M350 102c-6 9-12 15-12 21a12 12 0 0 0 24 0c0-6-6-12-12-21Z" fill="#39b8d7"/>
+          </svg>
+        </div>
+        <div class="visual-card visual-card-bottom"><span class="pulse-icon">⌁</span><span><b>Connected insight</b><small>Pressure · flow · leak status</small></span></div>
+        <div class="visual-label">A smarter view of your water</div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Hydro Guard benefits">
+      <div><span class="strip-icon">⌁</span><span>Monitor water pressure</span></div>
+      <div><span class="strip-icon">◌</span><span>Understand water flow</span></div>
+      <div><span class="strip-icon">♧</span><span>Know when a leak is detected</span></div>
+      <div><span class="strip-icon">⌂</span><span>Designed for UAE homes</span></div>
+    </section>
+
+    <section class="section-wrap dashboard-section" id="dashboard">
+      <div class="section-heading dashboard-heading">
+        <div>
+          <div class="eyebrow">YOUR WATER, AT A GLANCE</div>
+          <h2>Live monitoring dashboard</h2>
+          <p>Connect your Hydro Guard prototype to view sensor readings from your home.</p>
+        </div>
+        <div class="dashboard-status" aria-live="polite">
+          <span class="status-indicator" id="system-status-dot"></span>
+          <span><small>SYSTEM STATUS</small><strong id="system-status">Awaiting data</strong></span>
+        </div>
+      </div>
+
+      <div class="dashboard-shell">
+        <div class="dashboard-toolbar">
+          <div class="device-heading">
+            <div class="device-symbol">⌂</div>
+            <div><strong>Home water system</strong><span id="connection-label">Bluetooth disconnected</span></div>
+          </div>
+          <div class="toolbar-actions">
+            <button type="button" class="button button-primary button-small" id="connect-button">
+              <span class="bluetooth-symbol" aria-hidden="true">ᛒ</span> Connect Hydro Guard
+            </button>
+            <button type="button" class="button button-outline button-small" id="demo-button">Start demo</button>
+          </div>
+        </div>
+
+        <div class="connection-note" id="connection-note" aria-live="polite">
+          Connect to your ESP32 over Bluetooth Low Energy to see real sensor data. No readings are shown until data is received.
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metric-card">
+            <div class="metric-top"><span class="metric-icon pressure-icon">↗</span><span class="metric-caption">PRESSURE</span></div>
+            <div class="metric-value"><span id="pressure-value">—</span><small>kPa</small></div>
+            <div class="metric-subtitle">Water system pressure</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span class="metric-icon flow-icon">⌁</span><span class="metric-caption">FLOW RATE</span></div>
+            <div class="metric-value"><span id="flow-value">—</span><small>L/min</small></div>
+            <div class="metric-subtitle">Current water flow</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span class="metric-icon usage-icon">◌</span><span class="metric-caption">TOTAL USAGE</span></div>
+            <div class="metric-value"><span id="usage-value">—</span><small>L</small></div>
+            <div class="metric-subtitle">Total reported usage</div>
+          </article>
+          <article class="metric-card">
+            <div class="metric-top"><span class="metric-icon leak-icon">♧</span><span class="metric-caption">LEAK DETECTION</span></div>
+            <div class="metric-value metric-word" id="leak-value">—</div>
+            <div class="metric-subtitle">Sensor-reported status</div>
+          </article>
+        </div>
+
+        <div class="dashboard-footer">
+          <div class="footer-state">
+            <span class="connection-state-icon" aria-hidden="true">ᛒ</span>
+            <span><small>BLUETOOTH</small><strong id="bluetooth-status">Disconnected</strong></span>
+          </div>
+          <div class="footer-state">
+            <span class="last-update-icon" aria-hidden="true">◷</span>
+            <span><small>LAST UPDATE</small><strong id="last-update">No data received</strong></span>
+          </div>
+          <span class="mode-badge" id="mode-badge" hidden>DEMO MODE</span>
+        </div>
+      </div>
+
+      <section class="alerts-panel" aria-labelledby="alerts-title">
+        <div class="alerts-header">
+          <div><div class="eyebrow">STAY INFORMED</div><h3 id="alerts-title">Alerts &amp; activity</h3></div>
+          <span class="history-count" id="alert-count">0 alerts</span>
+        </div>
+        <div class="alert-current" id="current-alerts" aria-live="assertive">
+          <div class="empty-alert"><span class="empty-alert-icon">✓</span><span><strong>All quiet</strong><small>Alerts will appear here when incoming readings cross your configured thresholds.</small></span></div>
+        </div>
+        <div class="history-heading"><span>ALERT HISTORY</span><button type="button" class="clear-history" id="clear-history-button">Clear history</button></div>
+        <ul class="alert-history" id="alert-history">
+          <li class="history-empty">No alerts recorded.</li>
+        </ul>
+      </section>
+      <p class="dashboard-disclaimer">Hydro Guard provides monitoring information based on connected sensors. It does not replace professional plumbing inspection or emergency response.</p>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="section-wrap">
+        <div class="section-heading centered-heading">
+          <div class="eyebrow">SIMPLE BY DESIGN</div>
+          <h2>How Hydro Guard works</h2>
+          <p>Clear information from your water system, delivered when it matters.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card"><span class="step-number">01</span><div class="step-illustration step-drop">♧</div><h3>Sensors observe</h3><p>Connected sensors measure water pressure and flow, while monitoring for leak indications.</p></article>
+          <article class="step-card"><span class="step-number">02</span><div class="step-illustration step-signal">⌁</div><h3>Data connects</h3><p>Your ESP32 prototype sends readings to the dashboard over a local Bluetooth Low Energy connection.</p></article>
+          <article class="step-card"><span class="step-number">03</span><div class="step-illustration step-alert">◉</div><h3>You stay informed</h3><p>See live readings and get clear on-screen alerts when data crosses your chosen thresholds.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap overview-section" id="overview">
+      <div class="overview-copy">
+        <div class="eyebrow">PRODUCT OVERVIEW</div>
+        <h2>A clearer picture of your home’s water.</h2>
+        <p>Hidden leaks and unusual water activity can be difficult to spot before they become costly. Hydro Guard is designed to give homeowners a practical, timely view of key water-system signals.</p>
+        <p>For UAE villas and homes, that means better visibility into the system you rely on every day—without needing a paid cloud service to run this dashboard.</p>
+        <a class="text-link" href="#dashboard">Explore the dashboard <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="overview-card">
+        <div class="overview-card-top"><span class="overview-logo">HG</span><span>HYDRO GUARD<br><small>SMART WATER MONITORING</small></span><span class="overview-dot"></span></div>
+        <div class="overview-graphic">
+          <div class="graphic-line"></div>
+          <div class="graphic-drop">♧</div>
+          <div class="graphic-node node-one"></div><div class="graphic-node node-two"></div>
+          <div class="graphic-label label-one">PRESSURE</div><div class="graphic-label label-two">FLOW</div><div class="graphic-label label-three">LEAK STATUS</div>
+        </div>
+        <div class="overview-card-bottom"><span>Water system insights<br><small>In one connected view</small></span><span class="overview-arrow">↗</span></div>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="section-wrap">
+        <div class="section-heading centered-heading">
+          <div class="eyebrow">MADE FOR PEACE OF MIND</div>
+          <h2>Designed around what matters at home</h2>
+        </div>
+        <div class="benefit-grid">
+          <article><span>◉</span><h3>Earlier visibility</h3><p>See pressure and flow changes that may deserve a closer look.</p></article>
+          <article><span>⌂</span><h3>Home-focused</h3><p>Made with villas and residential water systems in mind.</p></article>
+          <article><span>⌁</span><h3>Direct connection</h3><p>Connect to your prototype locally using supported BLE browsers.</p></article>
+          <article><span>◇</span><h3>Simple to deploy</h3><p>Host the static website for free with GitHub Pages.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="section-wrap closing-inner">
+        <div><div class="eyebrow">A SMARTER HOME STARTS WITH INSIGHT</div><h2>Know your water.<br>Protect what matters.</h2></div>
+        <a class="button button-light" href="#dashboard">Open live dashboard <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="#home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 3C18 12 8 22 8 30a16 16 0 0 0 32 0C40 22 30 12 24 3Z" fill="currentColor"/><path d="M16 31c0 4 3 7 7 8" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5"/></svg>
+        <span class="brand-name">HYDRO <b>GUARD</b></span>
+      </a>
+      <p>Smart water monitoring for safer homes.</p>
+      <span class="footer-copy">© <span id="current-year"></span> Hydro Guard</span>
+    </div>
+  </footer>
+</body>
+</html>
